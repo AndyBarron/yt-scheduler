@@ -1,0 +1,22 @@
+{
+  "name": "yt-scheduler",
+  "version": "0.0.1",
+  "description": "Schedule YT videos",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npm-run-all --parallel \"watch:*\"",
+    "watch:server": "nodemon --config nodemon.server.json"
+  },
+  "author": "Andy Barron",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.16.2",
+    "dotenv": "4.0.0",
+    "express": "4.15.3",
+    "lru-cache": "4.1.1",
+    "nodemon": "1.11.0",
+    "npm-run-all": "4.0.2",
+    "parse-iso-duration": "1.0.0",
+    "youtube-api": "2.0.8"
+  }
+}
